@@ -202,7 +202,12 @@ margin-right: 10px;
 .img-destaque img {
     width: 50%;
     margin-top: 4px;
+    cursor: pointer;
 }
+
+.img-destaque img:hover {
+    opacity: 0.9;
+} 
 
 .noticia2 {
     margin-left: 4px;
@@ -275,3 +280,4 @@ margin-right: 10px;
     font-weight: 700;
     font-size: 25px;
 }
+
