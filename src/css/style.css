@@ -518,6 +518,7 @@ margin-right: 10px;
     width: 300px;
    padding-top: 10px;
    margin-left: 10px;
+   padding-bottom: 5px;
    border-radius: 5px;
 }
 
@@ -567,4 +568,17 @@ margin-right: 10px;
     font-family: 'Poppins', sans-serif;
     color: #fff;
     box-shadow: 5px 5px 5px rgba(5, 6, 7, 0.5);
+}
+
+.conteudo-final {
+    margin-top: 180px;
+}
+
+.h1Conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: #7a0202;
+    font-size: 20px;
 }
