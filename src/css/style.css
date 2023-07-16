@@ -440,7 +440,7 @@ margin-right: 10px;
 }
 
 .boxRed2 {
-    margin-left: 210px;
+    margin-left: 250px;
     margin-top: 20px;
     background-color: #AD0000;
     width: 400px;
@@ -453,7 +453,7 @@ margin-right: 10px;
 .card2 {
     margin-top: 10px;
     background-color: #F1E8E8;
-    width: 380px;
+    width: 390px;
     position: absolute;
     height: 325px;
     border-radius: 5px;
@@ -462,8 +462,11 @@ margin-right: 10px;
 
 .card-img2 img {
     position: absolute;
-    width: 360px;
-    padding-top: 10px;
+    width: 380px;
     margin-left: 10px;
     border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
