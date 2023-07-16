@@ -537,3 +537,34 @@ margin-right: 10px;
 .card3:hover .card-info3 {
     opacity: 1;
 }
+
+.boxWhite {
+    position: relative;
+    width: 780px;
+    background-color: #EEE9E5;
+    left: 160px;
+    height: 330px;
+    top: 60px;
+    padding-right: 50px;
+    padding-left: 30px;
+    box-shadow: 5px 5px 5px rgba(137, 142, 146, 0.5);
+    border-radius: 2px;
+}
+
+.text4 {
+    right: 30px;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background-color: #AD0000;
+    margin-top: 40px;
+    margin-left: 250px;
+    width: 53%;
+    border-radius: 2px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    box-shadow: 5px 5px 5px rgba(5, 6, 7, 0.5);
+}
