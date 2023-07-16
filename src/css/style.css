@@ -223,6 +223,7 @@ margin-right: 10px;
     color: #AD0000;
     margin-left: 30px;
     margin-top: 30px;
+    font-size: 30px;
 }
 
 .noticia-1 {
@@ -328,4 +329,89 @@ margin-right: 10px;
     border-radius: 15px;
     margin-top: 30px;
     box-shadow: 10px 10px 10px rgba(5, 6, 7, 0.5);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.img-hexa img:hover {
+    box-shadow: -10px 10px 10px -1px rgba(5, 6, 7, 0.313);
+}
+
+.container2 {
+    display: flex;
+}
+
+
+.boxRed {
+    margin-top: 70px;
+    background-color: #AD0000;
+    width: 430px;
+    height: 375px;
+    position: relative;
+    box-shadow: 5px 5px 5px rgba(5, 6, 7, 0.5);
+}
+
+.card {
+    margin-top: 30px;
+    background-color: #F1E8E8;
+    width: 520px;
+    position: absolute;
+    height: 325px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(137, 142, 146, 0.5);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-img img {
+    width: 500px;
+   padding-top: 10px;
+   margin-left: 10px;
+   border-radius: 5px;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 1em;
+    width: 140px;
+    text-align: center;
+    background-color: #EEE9E5;
+    border-radius: 2px;
+    opacity: 0;
+   transition: opacity 0.3s ease;
+   font-family: 'Rajdhani', sans-serif;
+}
+
+.card:hover .card-info {
+    opacity: 1;
+}
+
+.h1 {
+    width: 100%;
+    color: #AD0000;
+    margin-left: 270px;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 40px;
+}
+
+.intocaveis {
+    font-size: 32px;
+}
+
+.container3 {
+    width: 100%;
+}
+
+.text2 {
+    float: right;
+    width: 70%;
+    background-color: #EEE9E5;
+    height: 250px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #550505;
 }
