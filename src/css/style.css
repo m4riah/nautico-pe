@@ -486,3 +486,54 @@ margin-right: 10px;
     margin-left: 300px;
     box-shadow: 5px 5px 5px rgba(5, 6, 7, 0.5);
 }
+
+.container5 {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.boxRed3 {
+    margin-left: 10px;
+    background-color: #AD0000;
+    width: 360px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    box-shadow: 5px 5px 5px rgba(5, 6, 7, 0.5);
+}
+
+.card3 {
+    margin-left: 30px;
+    background-color: #F1E8E8;
+    width: 320px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(137, 142, 146, 0.5);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-img3 img {
+    width: 300px;
+   padding-top: 10px;
+   margin-left: 10px;
+   border-radius: 5px;
+}
+
+.card-info3 {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    text-align: center;
+    background-color: #EEE9E5;
+    border-radius: 2px;
+    opacity: 0;
+   transition: opacity 0.3s ease;
+   font-family: 'Rajdhani', sans-serif;
+
+}
+
+.card3:hover .card-info3 {
+    opacity: 1;
+}
