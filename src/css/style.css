@@ -448,14 +448,10 @@ margin-right: 10px;
     height: 349px;
     border-radius: 8px;
     cursor: pointer;
-    transition: box-shadow 0.3s ease-in-out;
     box-shadow: -10px 10px 10px -1px rgba(5, 6, 7, 0.313);
 
 }
 
-.card2:hover {
-    box-shadow: 10px 10px 10px rgba(5, 6, 7, 0.5);
-}
 
 .card-img2 img {
     width: 390px;
@@ -464,4 +460,28 @@ margin-right: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+}
+
+.card-info2 {
+     position: absolute;
+     bottom: 1em;
+     width: 140px;
+    text-align: center;
+    background-color: #EEE9E5;
+    border-radius: 2px;
+     transition: opacity 0.3s ease;
+    font-family: 'Rajdhani', sans-serif;
+    opacity: 0;
+}
+
+.card2:hover .card-info2 {
+    opacity: 1;
+}
+
+.boxRed2 {
+    background-color: #AD0000;
+    width: 320px;
+    position: relative;
+    margin-left: 300px;
+    box-shadow: 5px 5px 5px rgba(5, 6, 7, 0.5);
 }
