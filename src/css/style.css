@@ -311,7 +311,7 @@ margin-right: 10px;
     bottom: 100px;
     padding-top: 120px;
     padding-bottom: 60px;
-    border-radius: 7px;
+    border-radius: 3px;
 }
 
 .box-teximg {
@@ -414,4 +414,6 @@ margin-right: 10px;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     color: #550505;
+    border-radius: 3px;
+
 }
