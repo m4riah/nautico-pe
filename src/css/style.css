@@ -417,3 +417,53 @@ margin-right: 10px;
     border-radius: 3px;
 
 }
+
+
+.container4 {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+}
+
+.text3 {
+    width: 50%;
+    margin-top: 20px;
+    background-color: #AD0000;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.boxRed2 {
+    margin-left: 210px;
+    margin-top: 20px;
+    background-color: #AD0000;
+    width: 400px;
+    height: 340px;
+    position: relative;
+    box-shadow: 5px 5px 5px rgba(5, 6, 7, 0.5);
+    padding-bottom: 10px;
+}
+
+.card2 {
+    margin-top: 10px;
+    background-color: #F1E8E8;
+    width: 380px;
+    position: absolute;
+    height: 325px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(137, 142, 146, 0.5);
+}
+
+.card-img2 img {
+    position: absolute;
+    width: 360px;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
