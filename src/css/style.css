@@ -571,7 +571,7 @@ margin-right: 10px;
 }
 
 .conteudo-final {
-    margin-top: 180px;
+    margin-top: 150px;
 }
 
 .h1Conteudo {
@@ -581,4 +581,52 @@ margin-right: 10px;
     font-family: 'Rajdhani', sans-serif;
     color: #7a0202;
     font-size: 20px;
+}
+
+
+.containerCardsFinal {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.cardFinal {
+    left: 0;
+}
+
+.cardFinal, .cardFinal2, .cardFinal3, .cardFinal4, .cardFinal5 {
+    width: 400px;
+    background-color: #EEE9E5;
+    border-radius: 5px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.cardFinal4, .cardFinal5 {
+    margin-top: 30px;
+}
+
+.cardFinal4 {
+    margin-left: 250px;
+}
+
+.cardFinal5 {
+    margin-left: 70px;
+}
+
+.imgFinal {
+    position: relative;
+    z-index: 1;
+}
+
+.imgFinal img {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 95%;
+    height: 250px;
+} 
+
+.containerCardsFinal2 {
+    display: flex;
 }
